@@ -16,7 +16,9 @@
   <body>
     <header>
      <nav class="main-nav">
+       <a href="https://www.thinkful.com/learn/javascript-best-practices-1/#Allow-for-Configuration-and-Translation">
         <h1>Javascript BEST PRACTICES </h1>
+      </a>
       </nav>      
     </header>
 
@@ -42,68 +44,37 @@
         <h3>Avoid Globals</h3>
         <div class="more-stuff-grid">
           <p class="slide-in from-left">
-            Global variables are a terribly bad idea.
-            Reason: You run the danger of your code being overwritten by any other JavaScript added to the page after yours.
-            Workaround: use closures and the module pattern
+            Global variables are a terribly bad idea.<br>
+            <strong>Reason:</strong> You run the danger of your code being overwritten by any other JavaScript added to the page after yours.<br>
+            <strong>Workaround:</strong> use closures and the module pattern
           </p>
           <img
-            src="https://unsplash.it/401"
+            src="./assets/image2.PNG"
             alt=""
             class="slide-in from-right"
           />
         </div>
+        <h3> Use Shortcut Notations</h3>
         <div class="more-stuff-grid">
           <img
-            src="https://unsplash.it/400"
-            alt=""
-            class="slide-in from-left"
-          />
-          <p class="slide-in from-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
-          </p>
-        </div>
-        <div class="more-stuff-grid">
-          <p class="slide-in from-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
-          </p>
-          <img
-            src="https://unsplash.it/401"
+          src="./assets/image3.PNG"
             alt=""
             class="slide-in from-right"
           />
-        </div>
-        <div class="more-stuff-grid">
-          <img
-            src="https://unsplash.it/400"
-            alt=""
-            class="slide-in from-left"
-          />
-          <p class="slide-in from-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
+          <p class="slide-in from-left">
+            Shortcut notations keep your code snappy and easier to read once you get used to it.
           </p>
         </div>
+        <h3>Allow for Configuration and Translation</h3>
         <div class="more-stuff-grid">
           <p class="slide-in from-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
+            Everything that is likely to change in your code should not be scattered throughout your code.
+            This includes labels, CSS classes, IDs and presets.
+            By putting these into a configuration object and making this one public we make maintenance easy and allow for customization.
+
           </p>
           <img
-            src="https://unsplash.it/401"
+          src="./assets/image4.PNG"
             alt=""
             class="slide-in from-right"
           />
